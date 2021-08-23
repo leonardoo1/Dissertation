@@ -1,5 +1,5 @@
 # Preview
-![Design and Development](https://github.com/JunaidShamnad/React-Crypto-Tracker/blob/main/React-Crypto-Tracker.png)
+![Design and Development](React-Crypto-Tracker.png)
 
 # Getting Started with Create React App
 
