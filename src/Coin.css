@@ -34,6 +34,7 @@
 
 .coin-symbol {
   text-transform: uppercase;
+  padding-left: 10px;
 }
 
 .coin-data {
@@ -53,6 +54,10 @@
 
 .coin-marketcap {
   width: 230px;
+}
+
+.coin-rank{
+  padding-right: 10px;
 }
 
 .coin-percent {

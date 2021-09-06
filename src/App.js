@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 import Coin from "./Coin";
+import About from "./About";
 
 function App() {
   const [coins, setCoins] = useState([]);
@@ -28,13 +29,14 @@ function App() {
 
   return (
     <div className="coin-app">
-      <div className="Navbar">  <a href="/App.js" > Home</a>
-        <a href="">News</a>
+      <div className="Navbar">
+        <a href="" id="news">News</a>
         <a href="">Buy</a>
-        <a href="">SignUp</a>
-        <a>Login</a></div>
+        <a href="./About.js">About us</a>
+        <a>Miner</a>
+        </div>
       <div className="coin-search">
-        <h1 className="coin-text">CryptoShinobi</h1>
+        <a className="coin-text" href="/App.js">CryptoShinobi</a>
         <form>
           <input
             type="text"
@@ -55,10 +57,11 @@ function App() {
             price={coin.current_price}
             priceChange={coin.price_change_percentage_24h}
             volume={coin.total_volume}
+            mcaprank={coin.market_cap_rank}
           />
         );
       })}
-    </div>
+      </div>
   );
 }
 
