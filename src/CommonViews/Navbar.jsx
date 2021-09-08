@@ -6,13 +6,13 @@ function Navbar(){
         <div className="coin-app">
           <div className="row">
       <div id="navbar">
-            <a href="" id="news">News</a>
-            <a href="">Buy</a>
-            <a href="">About us</a>
-            <a href="" id="miner">Miner</a>
+            <a href="/news" id="news">News</a>
+            <a href="/buy">Buy</a>
+            <a href="/about">About us</a>
+            <a href="/miner" id="miner">Miner</a>
             </div>
             <div className="coin-search">
-            <a className="coin-text" href="/App.js">CryptoShinobi</a>
+            <a className="coin-text" href="/">CryptoShinobi</a>
             </div>
             </div>
             </div>
