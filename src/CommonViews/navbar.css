@@ -15,7 +15,8 @@
   }
 
 #navbar{
-    margin-top: 60px;
+    margin-top: 0px;
+    margin-bottom: -40px;
     display: flex;
     position: relative;
     flex-direction: row;
@@ -32,12 +33,11 @@
   }
   
   .coin-text{
-    margin-bottom: -32px;
+    margin-bottom: -140px;
     text-align: center;
     font-size: 2em;
     font-weight: bolder;
     position: relative;
-    top: 10px;
   }
 
   

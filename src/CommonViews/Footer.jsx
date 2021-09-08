@@ -6,7 +6,7 @@ function Footer (){
       <div className="container">
           <div className="row">
               <div className="footer-text">
-                  <h6>CryptoShinobi Limited</h6>
+                  <h6>CryptoShinobi Limited &copy;</h6>
               </div>
           </div>
       </div>
