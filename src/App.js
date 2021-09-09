@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
+import styles from "./App.css";
 import { Route,BrowserRouter as Router} from "react-router-dom";
 import Navbar from "./CommonViews/Navbar";
 import Main from "./CommonViews/main";
 import Footer from "./CommonViews/Footer";
-import About from "./About";
-import News from "./News";
-import Miner from "./Miner";
+import About from "./Pages/About";
+import News from "./Pages/News";
+import Miner from "./Pages/Miner";
+import ScrollToTop from "./Components/ScrollToTop";
+import Buy from "./Pages/Buy";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/news" component={News} />
         <Route exact path="/miner" component={Miner} />
+        <Route exact path="/buy" component={Buy} />
+        <ScrollToTop />
         <Footer />
    </div>
    </Router>

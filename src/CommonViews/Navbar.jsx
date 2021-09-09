@@ -9,7 +9,7 @@ function Navbar(){
             <a href="/news" id="news">News</a>
             <a href="/buy">Buy</a>
             <a href="/about">About us</a>
-            <a href="/miner" id="miner">Miner</a>
+            <a href="/miner">Miner</a>
             </div>
             <div className="coin-search">
             <a className="coin-text" href="/">CryptoShinobi</a>

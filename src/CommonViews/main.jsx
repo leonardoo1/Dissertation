@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./main.css";
+import"./main.css";
 import Coin from "./Coin";
-import {BackTop} from "antd";
 
 function Main (){
     const [coins, setCoins] = useState([]);
@@ -40,9 +39,6 @@ function Main (){
           onChange={handleChange}
         />
       </form>
-      <BackTop>
-      <div className="toTop" ><i className="fas fa-double-arrow">Arrow</i></div>
-    </BackTop>
     </div>
     </div>
     {filteredCoins.map((coin) => {
