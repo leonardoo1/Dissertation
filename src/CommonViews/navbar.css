@@ -15,17 +15,17 @@
   }
 
 #navbar{
-    margin-top: 0px;
-    margin-bottom: -40px;
+    margin-top: 0rem;
+    margin-bottom: -2.2rem;
     display: flex;
     position: relative;
     flex-direction: row;
     justify-content: flex-end;
-    padding-right: 40px;
+    padding-right: 2.2rem;
   }
 
   .coin-search{
-    margin-bottom: 64px;
+    margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,16 +33,16 @@
   }
   
   .coin-text{
-    margin-bottom: -140px;
+    margin-top: 4rem;
     text-align: center;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: bolder;
     position: relative;
   }
 
   
   a{
-    padding-left: 60px;
+    padding-left: 2rem;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.6rem;
     color: #fff;
@@ -57,4 +57,11 @@
   
   a:hover{
     cursor: pointer;
+  }
+
+  @media (max-width:767px){
+      a{
+        font-size: 1.3rem;
+        margin-bottom: 30px;
+      }
   }

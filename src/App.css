@@ -10,16 +10,17 @@
 }
 
 
+
 .coin-app{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 64px;
+  margin-top: 4rem;
   color: #fff;
 }
 
 .coin-search{
-  margin-bottom: 64px;
+  margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,22 +28,22 @@
 }
 
 .coin-text{
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
   text-align: center;
   font-size: 2em;
   font-weight: bolder;
   position: relative;
-  top: 10px;
+  top: 0.625rem;
 }
 
 .coin-input{
-  padding-left: 16px;
-  width: 400px;
-  height: 50px;
-  border-radius: 6px;
+  padding-left: 1rem;
+  width: 25rem;
+  height: 3.125rem;
+  border-radius: 0.375rem;
   border: none;
   outline: none;
-  font-size: 16px;
+  font-size: 1rem;
   background-image: linear-gradient(-225deg,#2711ee 0%,#18c6f2 48%,#4801ff 100%);
   color: #e2e2e2;
 }
@@ -50,23 +51,7 @@
 .coin-input::placeholder{
   color: #e2e2e2;
 }
- .Navbar{
-   display: flex;
-  flex-direction: row;
-  position: relative;
-  top: 7%;
-  right: 5%;
-  left: 550px;
-}
 
-a{
-  padding-left: 60px;
-  text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 1.6rem;
-  color: #fff;
-  font-weight: 400;
-}
 
 a:hover{
   color: #18c6f2;
@@ -83,10 +68,15 @@ a:hover{
 
 .scroll-to-top {
   position: fixed;
-  width: 80px;
+  width: 5rem;
   bottom: 0.5rem;
   left: 96%;
   animation: fadeIn 700ms ease-in-out 1s both;
   cursor: pointer;
 }
 
+@media (max-width:767px){
+  .scroll-to-top{
+    left: 90%;
+  }
+}

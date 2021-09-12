@@ -28,7 +28,7 @@ function Main (){
 
   return (
 
-    <div className="container">
+    <div className="container-app">
       <div className="coin-app">
     <div className="coin-search">
       <form>
