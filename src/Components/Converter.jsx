@@ -51,7 +51,7 @@ function Converter() {
       </div>
       <div className="container-converter">
         <div className="left">
-          <h3>Amount</h3>
+          <h3 className="amounthdr">Amount</h3>
           <input
             className="resize"
             type="text"
