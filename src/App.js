@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./App.css";
-import { Route,BrowserRouter as Router} from "react-router-dom";
+import { Route, BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./CommonViews/Navbar";
 import Main from "./CommonViews/main";
 import Footer from "./CommonViews/Footer";
@@ -12,9 +12,9 @@ import Buy from "./Pages/Buy";
 
 function App() {
   return (
-      <Router>
+    <Router>
       <div className="container">
-        <Navbar/>
+        <Navbar />
         <Route exact path="/" component={Main} />
         <Route exact path="/about" component={About} />
         <Route exact path="/news" component={News} />
@@ -22,8 +22,8 @@ function App() {
         <Route exact path="/buy" component={Buy} />
         <ScrollToTop />
         <Footer />
-   </div>
-   </Router>
+      </div>
+    </Router>
   );
 }
 

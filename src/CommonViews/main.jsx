@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import"./main.css";
+import "./main.css";
 import Coin from "./Coin";
 
-function Main (){
-    const [coins, setCoins] = useState([]);
+function Main() {
+  const [coins, setCoins] = useState([]);
   const [search, setSearch] = useState("");
 
   useEffect(() => {
@@ -27,38 +27,36 @@ function Main (){
   );
 
   return (
-
     <div className="container-app">
       <div className="coin-app">
-    <div className="coin-search">
-      <form>
-        <input
-          type="text"
-          placeholder="Search a currency"
-          className="coin-input"
-          onChange={handleChange}
-        />
-      </form>
+        <div className="coin-search">
+          <form>
+            <input
+              type="text"
+              placeholder="Search a currency"
+              className="coin-input"
+              onChange={handleChange}
+            />
+          </form>
+        </div>
+      </div>
+      {filteredCoins.map((coin) => {
+        return (
+          <Coin
+            key={coin.id}
+            name={coin.name}
+            image={coin.image}
+            symbol={coin.symbol}
+            marketcap={coin.market_cap}
+            price={coin.current_price}
+            priceChange={coin.price_change_percentage_24h}
+            volume={coin.total_volume}
+            mcaprank={coin.market_cap_rank}
+          />
+        );
+      })}
     </div>
-    </div>
-    {filteredCoins.map((coin) => {
-      return (
-        <Coin
-          key={coin.id}
-          name={coin.name}
-          image={coin.image}
-          symbol={coin.symbol}
-          marketcap={coin.market_cap}
-          price={coin.current_price}
-          priceChange={coin.price_change_percentage_24h}
-          volume={coin.total_volume}
-          mcaprank={coin.market_cap_rank}
-        />
-      );
-    })}
-    </div> 
   );
-
 }
 
 export default Main;

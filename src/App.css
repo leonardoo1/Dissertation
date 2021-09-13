@@ -1,15 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
+* {
   box-sizing: border-box;
-  font-family:'Domine',serif;
-  background: rgb(0,0,0);
-/*   background: linear-gradient(117deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 41%, rgba(0,0,0,1) 59%, rgba(13,13,14,1) 85%); */
+  font-family: "Domine", serif;
+  background: rgb(0, 0, 0);
+  /*   background: linear-gradient(117deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 41%, rgba(0,0,0,1) 59%, rgba(13,13,14,1) 85%); */
   color: #fff;
 }
 
-
-
-.coin-app{
+.coin-app {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +15,7 @@
   color: #fff;
 }
 
-.coin-search{
+.coin-search {
   margin-bottom: 4rem;
   display: flex;
   flex-direction: column;
@@ -25,7 +23,7 @@
   align-items: center;
 }
 
-.coin-text{
+.coin-text {
   margin-bottom: 2rem;
   text-align: center;
   font-size: 2em;
@@ -34,7 +32,7 @@
   top: 0.625rem;
 }
 
-.coin-input{
+.coin-input {
   padding-left: 1rem;
   width: 25rem;
   height: 3.125rem;
@@ -42,25 +40,29 @@
   border: none;
   outline: none;
   font-size: 1rem;
-  background-image: linear-gradient(-225deg,#2711ee 0%,#18c6f2 48%,#4801ff 100%);
+  background-image: linear-gradient(
+    -225deg,
+    #2711ee 0%,
+    #18c6f2 48%,
+    #4801ff 100%
+  );
   color: #e2e2e2;
 }
 
-.coin-input::placeholder{
+.coin-input::placeholder {
   color: #e2e2e2;
 }
 
-
-a:hover{
+a:hover {
   color: #18c6f2;
   transition: all 0.3s ease;
 }
 
-a:hover{
+a:hover {
   cursor: pointer;
 }
 
-.navbar{
+.navbar {
   clear: both;
 }
 
@@ -73,8 +75,8 @@ a:hover{
   cursor: pointer;
 }
 
-@media (max-width:767px){
-  .scroll-to-top{
+@media (max-width: 767px) {
+  .scroll-to-top {
     left: 90%;
   }
 }
@@ -88,7 +90,6 @@ a:hover{
 @media screen and (max-width:768px) and (min-width:481px) {
 ipads/tablets
 }*/
-
 
 /*
 @media screen and (max-width:1024px) and (min-width:769px) {

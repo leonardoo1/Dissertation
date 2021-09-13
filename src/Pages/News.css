@@ -1,41 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
 
-*{
-  font-family:'Domine',serif;
-}
-  
-
-.container-news{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+* {
+  font-family: "Domine", serif;
 }
 
-.two{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 1rem;
+.container-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
-.four{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
 }
 
-.twone{
-    margin-left: 3rem;
+.four {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.fourtwo{
+.twone {
   margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.guidelinetit{
+.fourtwo {
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.guidelinetit {
   font-size: 3rem;
+}
+
+.twotwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fourone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*
@@ -47,7 +64,6 @@
 @media screen and (max-width:768px) and (min-width:481px) {
 ipads/tablets
 }*/
-
 
 /*
 @media screen and (max-width:1024px) and (min-width:769px) {

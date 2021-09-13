@@ -1,80 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
 
-*{
-  font-family:'Domine',serif;
+* {
+  font-family: "Domine", serif;
 }
 
-.container-buy{
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
+.container-buy {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
 }
 
-.whereto{
-    font-size: 2.2rem;
-    padding-bottom: 2rem;
+.whereto {
+  font-size: 2.2rem;
+  padding-bottom: 2rem;
 }
 
-.binancedesc{
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
+.binancedesc {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
 }
 
 .binancedescp {
-    padding-left: 2rem;
-    justify-content: center;
-    align-items: center;
-    word-spacing: 3px;
-    line-height: 1.7rem;
+  padding-left: 2rem;
+  justify-content: center;
+  align-items: center;
+  word-spacing: 3px;
+  line-height: 1.7rem;
 }
 
-hr{
-    color: white;
-    width: 80%;
-    margin-top: 30px;
+hr {
+  color: white;
+  width: 80%;
+  margin-top: 30px;
 }
 
-.bnblnk{
-    font-size: auto;
-    font-weight: 100;
-    width: auto;
-    padding-left: 0;
+.bnblnk {
+  font-size: auto;
+  font-weight: 100;
+  width: auto;
+  padding-left: 0;
 }
 
-.buyop{
-    margin-top: 30px;
+.buyop {
+  margin-top: 30px;
 }
 
-.kraken{
-    margin-top: 20px;
+.kraken {
+  margin-top: 20px;
 }
 
-.tit1{
-    padding-bottom: 10px;
+.tit1 {
+  padding-bottom: 10px;
 }
 
-.coinbase{
-    padding-top: 20px;
+.coinbase {
+  padding-top: 20px;
 }
 
-.voyager{
-    padding-top: 20px;
-    padding-bottom: 50px;
+.voyager {
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
-@media (max-width:767px){
-    .bnbimg{
-        visibility: hidden;
-    }
+@media (max-width: 767px) {
+  .bnbimg {
+    visibility: hidden;
+  }
 
-    .binancedescp{
-        position: absolute;
-        top: 35%;
-        left: 10%;
-    }
+  .binancedescp {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+  }
 }
 
 /*
@@ -86,7 +86,6 @@ hr{
 @media screen and (max-width:768px) and (min-width:481px) {
 ipads/tablets
 }*/
-
 
 /*
 @media screen and (max-width:1024px) and (min-width:769px) {
