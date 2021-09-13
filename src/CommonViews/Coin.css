@@ -86,48 +86,28 @@
   color: #11d811;
 }
 
-@media  screen and (max-width:910px) {
+/*
+@media screen and (max-width:480px) and (min-width:480px)  {
+  Mobile devices
+}*/
 
-  .coin-volume{
-    visibility: hidden;
-    width: 0;
-  }
-  
-}
+/*
+@media screen and (max-width:768px) and (min-width:481px) {
+ipads/tablets
+}*/
 
-@media screen and (max-width:768px){
-    .coin-container {
-        display: flex;
-        margin: 0;
-        padding: 0;
-        width: 398px;
-    }
-    
-    .coin-row {
-        width: 300px;
-    } 
-    .coin-data{
-     padding-left: 20px;
-    }
-    .coin-symbol{
-      width: 30px;
-    }
-    .coin h1 {
-      visibility: hidden;
-      width: 0px;
-    }
-    .coin-marketcap{
-      visibility: hidden;
-    }
-    .coin-volume{
-      visibility: hidden;
-    }
-    .coin-price{
-      width: 70px;
-    }
-    .coin-percent{
-      width: 40px;
-      padding-left: 20px;
 
-    }
-}
+/*
+@media screen and (max-width:1024px) and (min-width:769px) {
+laptops
+}*/
+
+/*
+@media screen and (max-width:1200px) and (min-width:1025px) {
+desktops
+}*/
+
+/*
+@media screen and (min-width:1201px) {
+largescreen
+}*/
