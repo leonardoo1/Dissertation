@@ -8,7 +8,7 @@ const Coin = ({ name, image, symbol, price, volume,priceChange,marketcap,mcapran
         <div className="coin">
         <p className="coin-rank">{mcaprank}</p>
           <img src={image} alt="crypto" />
-          <h1>{name}</h1>
+          <h1 classname="cname">{name}</h1>
           <p className="coin-symbol">{symbol}</p>
         </div>
         <div className="coin-data">

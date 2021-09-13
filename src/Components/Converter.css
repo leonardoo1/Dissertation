@@ -89,12 +89,13 @@ input {
 .Dropdown-placeholder {
   background-color: cyan;
   color: black;
-
+  text-transform: uppercase;
 }
 
 .Dropdown-option {
   background-color: cyan;
   color: black;
+  text-transform: uppercase;
 }
 .resize{
   height: 2.7rem;

@@ -11,7 +11,7 @@ function Navbar(){
             <a href="/about">About us</a>
             <a href="/miner">Converter</a>
             </div>
-            <div className="coin-search">
+            <div className="coin-searcho">
             <a className="coin-text" href="/">CryptoShinobi</a>
             </div>
             </div>

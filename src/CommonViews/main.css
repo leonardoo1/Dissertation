@@ -52,17 +52,18 @@
 .coin-input::placeholder{
   color: #e2e2e2;
 }
-@media (max-width:767px){
-  .coin-input{
-   max-width: 20rem;
-   margin-left: -60px;
-  }
+
+
+@media screen and (max-width:480px) and (min-width:320px)  {
+.coin-search{
+  width: 280px;
+  margin-left: -10%;
 }
 
-/*
-@media screen and (max-width:480px) and (min-width:480px)  {
-  Mobile devices
-}*/
+.coin-input{
+  width: 280px;
+}
+}
 
 /*
 @media screen and (max-width:768px) and (min-width:481px) {
