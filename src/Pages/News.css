@@ -1,3 +1,32 @@
-h1 {
-    font-family: 'Times New Roman', Times, serif;
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+*{
+  font-family:'Domine',serif;
 }
+  
+
+.container-news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.twone{
+    margin-left: 1rem;
+}
+

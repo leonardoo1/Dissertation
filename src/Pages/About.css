@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+*{
+  font-family:'Domine',serif;
+}
+
 h1 {
-    font-family:'Times New Roman', Times, serif;
     text-align: center;
     font-size: 3rem;
 }

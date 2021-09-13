@@ -4,6 +4,7 @@ import Dropdown from 'react-dropdown';
 import { HiSwitchHorizontal } from 'react-icons/hi';
 import 'react-dropdown/style.css';
 import './Converter.css';
+import convimg from "../Images/converter.png";
   
 function Converter() {
   
@@ -47,7 +48,7 @@ function Converter() {
   return (
     <div className="App-converter">
       <div className="heading-converter">
-        <h1>Currency converter</h1>
+         <img src={convimg} alt=""  className="convimg"/>
       </div>
       <div className="container-converter">
         <div className="left">

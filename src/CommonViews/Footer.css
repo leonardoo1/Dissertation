@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+*{
+  font-family:'Domine',serif;
+}
 
 .row{
     display: flex;
