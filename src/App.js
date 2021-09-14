@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import styles from "./App.css";
+import React from "react";
+import "./App.css";
 import { Route, BrowserRouter as Router } from "react-router-dom";
 import Navbar from "./CommonViews/Navbar";
 import Main from "./CommonViews/main";

@@ -84,26 +84,6 @@ a:hover {
 
 @media screen and (max-width:480px) and (min-width:320px)  {
  .scroll-to-top{
-   left: 64%;
+   left: 63%;
  }
 }
-
-/*
-@media screen and (max-width:768px) and (min-width:481px) {
-ipads/tablets
-}*/
-
-/*
-@media screen and (max-width:1024px) and (min-width:769px) {
-laptops
-}*/
-
-/*
-@media screen and (max-width:1200px) and (min-width:1025px) {
-desktops
-}*/
-
-/*
-@media screen and (min-width:1201px) {
-largescreen
-}*/

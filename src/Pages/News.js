@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./News.css";
 
 function News() {
@@ -16,7 +16,7 @@ function News() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-          <p className="ytone">Text goes here</p>
+          <p className="ytone">How to buy cryptocurrency</p>
         </div>
         <div className="twone">
           <iframe
@@ -28,7 +28,7 @@ function News() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-          <p className="ytwo">Text goes here</p>
+          <p className="ytwo">How Cryptocurrency ACTUALLY works</p>
         </div>
       </div>
 
@@ -43,7 +43,7 @@ function News() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-          <p className="ythree">Text goes here</p>
+          <p className="ythree">How To Invest In Crypto Full Beginners Guide in 2021</p>
         </div>
         <div className="fourtwo">
           <iframe
@@ -55,7 +55,7 @@ function News() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-          <p className="ytfour">Text goes here</p>
+          <p className="ytfour">When To Buy Cryptocurrency - 3 Simple Steps (Maximize Profit)</p>
         </div>
       </div>
 

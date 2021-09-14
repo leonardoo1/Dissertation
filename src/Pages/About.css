@@ -11,10 +11,10 @@
 }
 
 .history {
-  font-size: 1rem;
+  font-size:3rem;
   padding-top: 50px;
   text-align:center;
-  line-height: 2rem;
+  line-height: 5rem;
 }
 
 .container-about {
@@ -25,28 +25,3 @@
   align-items: center;
   align-content: center;
 }
-
-/*
-@media screen and (max-width:480px) and (min-width:480px)  {
-  Mobile devices
-}*/
-
-/*
-@media screen and (max-width:768px) and (min-width:481px) {
-ipads/tablets
-}*/
-
-/*
-@media screen and (max-width:1024px) and (min-width:769px) {
-laptops
-}*/
-
-/*
-@media screen and (max-width:1200px) and (min-width:1025px) {
-desktops
-}*/
-
-/*
-@media screen and (min-width:1201px) {
-largescreen
-}*/
