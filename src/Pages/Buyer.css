@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-* {
-  font-family: "Domine", serif;
+*{
+  font-family: 'Montserrat', sans-serif;
 }
-
 .container-buy {
   max-width: 100%;
   display: flex;
@@ -95,14 +94,16 @@ hr {
     margin-left: 5%;
     text-align: center;
     margin-top: 3rem;
+    font-size: 2rem;
   }
 
   .tit1{
     padding-bottom: 10rem;
   }
+
 .binancedescp{
   display: flex;
-  margin-top: 11rem;
+  margin-top: 5rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -111,7 +112,7 @@ hr {
 }
 
 .buyop{
-   margin-top: 3rem;
+   margin-top: 4rem;
    text-align: center;
 }
 

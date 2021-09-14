@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 *{
-  font-family:'Domine',serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .coin-container {
@@ -23,26 +23,24 @@
   display: flex;
   align-items: center;
   padding-right: 24px;
-  width: 300px;
+
+  min-width: 300px;
 }
 
 .coin h1 {
-  display: flex;
   font-size: 16px;
-  width: 150px;
+  width: 140px;
 }
 
 .coin img {
-  display: flex;
   height: 30px;
   width: 30px;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .coin-symbol {
-  display: flex;
   text-transform: uppercase;
-  padding-left: 10px;
 }
 
 .coin-data {
@@ -53,28 +51,19 @@
 }
 
 .coin-price {
-  display: flex;
   width: 110px;
 }
 
 .coin-volume {
-  display: flex;
-  width: 175px;
-  padding-left: 10px;
+  width: 170px;
+  margin-left: 10px;
 }
 
 .coin-marketcap {
-  display: flex;
   width: 230px;
 }
 
-.coin-rank{
-  display: flex;
-  padding-right: 10px;
-}
-
 .coin-percent {
-  display: flex;
   width: 100px;
 }
 
@@ -89,6 +78,7 @@
 
 @media screen and (max-width:480px) and (min-width:320px)  {
   .coin-container{
+    display: flex;
     max-width: 480px;
     min-width: 320px;
   }
@@ -98,23 +88,28 @@
   }
 
   .coin-row{
+    display: flex;
     max-width: 480px;
     min-width: 320px;
   }
 
   .coin-volume{
+    display: flex;
     visibility: hidden;
   }
 
   .coin h1{
+    display: flex;
     visibility: hidden;
   }
   .coin-price{
+    display: flex;
     max-width: 60px;
-    margin-left: 10px;
+    margin-left: -140px;
   }
 
   .coin-rank{
+    display: flex;
     max-width: 20px;
     visibility:visible;
     margin-left: 10px;
@@ -122,12 +117,14 @@
   }
 
   .coin-symbol{
+    display: flex;
     max-width: 42px;
-    margin-left: -160px;
+    margin-left: -130px;
   }
 
   .coin-percent{
-    margin-left: -90px;
+    display: flex;
+    margin-left: -140px;
     width: 30px;
   }
 

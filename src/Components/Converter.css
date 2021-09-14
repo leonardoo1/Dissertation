@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-* {
-  font-family: "Domine", serif;
+*{
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-converter {
@@ -120,10 +120,8 @@ input {
     padding: 0;
   }
 
-  .convimg{
-    width:250px;
-    align-self: center;
-    margin-left: -10%;
+  .heading-converter{
+    font-size: 1rem;
   }
 
   .container-converter{
@@ -137,7 +135,7 @@ input {
   }
   
   .resize{
-    width: 80px;
+    width: 90px;
   }
 
   .right ,
